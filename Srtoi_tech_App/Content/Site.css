@@ -1,0 +1,226 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+#toTop {
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px; /* отступ кнопки от нижнего края страницы*/
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: black;
+    font-family: verdana;
+    font-size: 11px;
+    /* transition */
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+    #toTop a:hover {
+        color: rgb(212, 17, 17);
+    }
+
+    #toTop span {
+        display: block;
+        margin-bottom: 7px;
+        background: rgb(39, 155, 45);
+        /* rounded corners */
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        /* transition */
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        transition: 1s;
+    }
+
+    #toTop span {
+        height: 25px;
+        width: 25px;
+    }
+
+.toTop img {
+    height: 25px;
+    width: 25px;
+}
+
+body {
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #555;
+}
+
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+h1, h2, h3 {
+    font: normal 170% 'centry gotic' arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+}
+
+h2 {
+    font-size: 140%;
+}
+
+a, a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #1b18bea1;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+    color: #5d5d5d;
+    width: 60%;
+    padding: 8px;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+}
+
+.header {
+    background-color: darkslateblue;
+    height: 177px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+
+.main, .logo, .site_content, .footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 880px;
+    padding-bottom: 40px
+}
+
+    .logo h1, .logo h2 {
+        font: normal 300% 'centry gotic',arial, sans-serif;
+        margin: 0 0 0 9px;
+    }
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+    padding: 22px 0 0 0;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h2 {
+    font-size: 0.9em;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+
+.menubar {
+    width: 700px;
+    height: 46px;
+}
+
+ul.menu {
+    float: right;
+}
+
+    ul.menu li {
+        float: left;
+        padding: 0 0 0 9px;
+        list-style: none;
+        margin: 1px 2px 0 0;
+    }
+
+        ul.menu li a {
+            font: normal 100% 'trebuchet ms', sans-serif;
+            display: block;
+            height: 20px;
+            padding: 6px 35px 5px 28px;
+            color: rgb(50, 182, 50);
+            text-decoration: none;
+        }
+
+        ul.menu li.selected a {
+            color: #aeb002;
+        }
+
+        ul.menu li a:hover {
+            color: #e4ec04;
+        }
+
+.side_content {
+    width: 880px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: rgb(109, 107, 107);
+}
+
+.sidebar_container {
+    float: right;
+    width: 224px;
+}
+
+.sidebar {
+    float: right;
+    width: 222px;
+    padding: 5%;
+    margin: 0 0 16px 0;
+    border: solid 1px #f2f2f2;
+    border-radius: 5px;
+    background-color: rgba(56, 58, 175, 0.411);
+}
+
+.btn {
+    padding: 8px;
+    background-color: rgb(40, 172, 57);
+    cursor: pointer;
+}
+
+.sidebar h2 {
+    color: #136cb2;
+}
+
+.lables_passreg_text {
+    font-size: 0.7em;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: darkslateblue;
+    color: #a8aa94;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+    .footer a {
+        color: #a8aa94;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            color: white;
+            text-decoration: none;
+        }
+
+    .footer p {
+        padding: 0 0 10px 0;
+    }

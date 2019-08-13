@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{972061FB-5E2E-4791-8626-C039CC627A22}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Srtoi_tech_App/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Srtoi_tech_App/Global.asax.cs" Line="15" Column="2" />
+      <File FileName="Srtoi_tech_App/Views/Home/Index.cshtml" />
+      <File FileName="Srtoi_tech_App/Views/Shared/_Layout.cshtml" Line="15" Column="37" />
+      <File FileName="Srtoi_tech_App/Content/Site.css" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Srtoi_tech_App" expanded="True" selected="True">
+            <Node name="Srtoi_tech_App" expanded="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Content" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Scripts" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Srtoi_tech_App" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.Srtoi__tech__App PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Srtoi__tech__App.Tests FirstBuild="True" />
+</Properties>
