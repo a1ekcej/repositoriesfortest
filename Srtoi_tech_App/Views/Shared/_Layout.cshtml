@@ -7,12 +7,11 @@
     <meta name="description" content="Vitastroy">
     <meta name="keywords" content="Vitastroy, Vitastroi, Вита-строй, строительствоб ремонт помещений">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    @Styles.Render("~/Content/css")
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link href="@Url.Content("~/Content/css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="main">
@@ -46,13 +45,13 @@
         </div>
     </nav>
     @RenderBody()
-    </div>
+
     <div class="jumbotron text-center" style="margin-bottom:0">
         <p>Footer</p>
     </div>
 
 
-    @Scripts.Render("~/bundles/bootstrap")
+  
     @RenderSection("scripts", required: false)
 </body>
 </html>

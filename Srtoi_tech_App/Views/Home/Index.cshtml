@@ -16,7 +16,7 @@
             <h2>Войти</h2>
             <form method="post" action="#" id="login">
                 <input type="text" name="login_field" placeholder="логин" />
-                <input type="password" name="lpassword_field" placeholder="пароль" />
+                <input type="password" name="password_field" placeholder="пароль" />
                 <input type="submit" class="btn" value="Вход" />
                 <div class="lables_passreg_text">
                     <span><a href="#">забыли пароль?</a></span> | <span><a href="#">регистрация</a></span>
@@ -32,7 +32,23 @@
     </div>
 </div>
 <div class="jumbotron text-center">
-    <h1>My First Bootstrap Page</h1>
+    <h1>Это моя первая страничка на Bootstrap</h1>
+
+    @foreach (var s in ViewBag.Users)
+    {
+        <tr>
+            <td><p>Логин: @s.UserName password: @s.UserPswd</p></td>
+        </tr>
+    }
+
+    @foreach (var s in ViewBag.Admins)
+    {
+        <tr>
+            <td><p>Логин: @s.AdminName password: @s.AdminPswd</p></td>
+        </tr>
+    }
+
+
     <p>Resize this responsive page to see the effect!</p>
 </div>
 
